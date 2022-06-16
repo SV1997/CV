@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="css/css3.css">
+    <link rel="stylesheet" href="css/contactcss.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="img">
+                <img class="img" src="css\emblem.png" alt="">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="new/about.html">about</a>></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="search" placeholder=" item to search" >
+                <button type="submit" class="search-button">
+                    <img src="serach.jpg" alt="">
+                </button>    
+            </div>
+            
+        </nav>
+         
+    </header>
+    <main class="container">
+        <div class="form">
+        <form action="get_submission.html" method="get" target="top" autocomplete="off" id="info">
+            <fieldset>
+                <legend style="width: 50vw;">enter your details</legend>
+                <label for="name">Name</label>
+                <input type="text" class="width" id="name" name="name" placeholder="enter your name" required> <br><br>
+                <label for="email">E mail</label>
+                <input type="email" class="width" id="email" placeholder="enter your email id" required><br><br>
+                <label for="p.no">Mobile number</label>
+                <input type="tel" class="width" id="p.no" placeholder="enter your phone number" required><br><br>
+                <label for="message">Message</label><br><br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="enter your message here"
+                    data-sb-validation="required" required></textarea><br><br>
+                <button type="submit" id="submitbutton"> submit</button>
+            </fieldset>
+        </form>
+        </div>
+    </main>
+    <footer>
+        &copy content
+    </footer>
+</body>
+
+</html>
